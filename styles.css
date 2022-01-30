@@ -1,0 +1,71 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+u {
+text-decoration: underline;
+text-decoration-color: rgb(12, 208, 243);
+text-decoration-thickness: 7px;
+}
+
+a:visited{ 
+color: black; 
+}
+
+a:hover {
+text-decoration-color: rgb(12, 208, 243);
+text-decoration: underline;
+text-decoration-thickness: 3px;
+color: rgb(12, 208, 243);
+    }
+
+article {
+    max-width: 75%;
+    height: auto;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+  }
+
+h1 {
+  font-family: 'Noto Sans Display';
+  font-style: italic;
+  font-weight: 900;
+  font-stretch: 100%;
+  font-display: swap;
+  font-size: 5vw;
+  line-height: 0.85;
+  text-align: center;
+}
+
+h2 {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 300;
+    font-size: 2.5vw;
+    text-align: center;
+  }
+
+figcaption {
+    font-family: 'Noto Sans Display', sans-serif;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: .8vw;
+    text-align: left;
+}
+
+section {
+    font-family: 'Noto Sans Display', sans-serif;
+    max-width: 75%;
+    font-weight: 300;
+    font-size: 1.2vw;
+    margin-top: 20px;
+    text-align: justify;
+}
